@@ -1,0 +1,7 @@
+# encoding: utf-8
+
+patch:
+  engine/translator/@next:
+    - lua_translator@*emoji.emoji_translator
+  recognizer/patterns/+:
+    emoji: ":[A-Za-z][A-Za-z_]*:?$"
