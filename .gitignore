@@ -1,2 +1,3 @@
 ENV
 build
+.DS_Store
